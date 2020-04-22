@@ -1,0 +1,75 @@
+<mvc:View controllerName="com.sap.samples.ariba-approval-documents-frontend.controller.App"
+          displayBlock="true"
+          xmlns="sap.m"
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns:l="sap.ui.layout">
+    <Shell id="shell">
+        <App id="app"
+             backgroundImage="./img/buildingCorporate.jpg"
+             backgroundOpacity="1">
+            <pages>
+                <Page id="page"
+                      backgroundDesign="Transparent"
+                      title="{i18n>title}"
+                      titleAlignment="Center">
+                    <content>
+                        <l:VerticalLayout class="sapUiContentPadding"
+                                          width="100%">
+                            <l:content>
+                                <MessageStrip text="{i18n>message_strip_text}"
+                                              showIcon="true"
+                                              showCloseButton="true"
+                                              class="sapUiMediumMarginBottom">
+                                </MessageStrip>
+
+                                <FlexBox width="100%"
+                                         justifyContent="Start">
+
+                                    <QuickViewCard>
+                                        <QuickViewPage header="{sampleApprovalDocumentsRequisitions>/uniqueName} - {sampleApprovalDocumentsRequisitions>/title}"
+                                                       icon="sap-icon://shipping-status"
+                                                       title="{sampleApprovalDocumentsRequisitions>/uniqueName} - {sampleApprovalDocumentsRequisitions>/title}"
+                                                       description="{i18n>status}: {sampleApprovalDocumentsRequisitions>/statusString} - {i18n>overall_value}: {sampleApprovalDocumentsRequisitions>/totalCost/currency} {sampleApprovalDocumentsRequisitions>/totalCost/amount}"
+                                                       groups="{path: 'sampleApprovalDocumentsRequisitions>/lineItems', templateShareable: true}">
+                                            <QuickViewGroup heading="{sampleApprovalDocumentsRequisitions>description/shortName}">
+                                                <QuickViewGroupElement label="{i18n>amount}"
+                                                                       value="{sampleApprovalDocumentsRequisitions>amount/currency} {sampleApprovalDocumentsRequisitions>amount/amount}"
+                                                                       type="text">
+                                                </QuickViewGroupElement>
+                                                <QuickViewGroupElement label="{i18n>supplier}"
+                                                                       value="{sampleApprovalDocumentsRequisitions>supplier/uniqueName} - {sampleApprovalDocumentsRequisitions>supplier/name}"
+                                                                       type="text">
+                                                </QuickViewGroupElement>
+                                            </QuickViewGroup>
+                                        </QuickViewPage>
+                                    </QuickViewCard>
+
+                                    <QuickViewCard class="sapUiSmallMarginBegin">
+                                        <QuickViewPage header="{sampleApprovalDocumentsInvoices>/INV1234-3976/UniqueName}"
+                                                       icon="sap-icon://shipping-status"
+                                                       title="{sampleApprovalDocumentsInvoices>/INV1234-3976/UniqueName}"
+                                                       description="{i18n>status}: {sampleApprovalDocumentsInvoices>/INV1234-3976/StatusString} - {i18n>overall_value}: {sampleApprovalDocumentsInvoices>/INV1234-3976/TotalCost/Currency/UniqueName} {sampleApprovalDocumentsInvoices>/INV1234-3976/TotalCost/Amount}"
+                                                       groups="{path: 'sampleApprovalDocumentsInvoices>/INV1234-3976/LineItems', templateShareable: true}">
+                                            <QuickViewGroup heading="{sampleApprovalDocumentsInvoices>Description.ShortName}">
+                                                <QuickViewGroupElement label="{i18n>amount}"
+                                                                       value="{sampleApprovalDocumentsInvoices>Amount/Currency/UniqueName} {sampleApprovalDocumentsInvoices>Amount/Amount}"
+                                                                       type="text">
+                                                </QuickViewGroupElement>
+                                                <QuickViewGroupElement label="{i18n>supplier}"
+                                                                       value="{sampleApprovalDocumentsInvoices>Supplier/UniqueName}"
+                                                                       type="text">
+                                                </QuickViewGroupElement>
+                                            </QuickViewGroup>
+                                        </QuickViewPage>
+                                    </QuickViewCard>
+
+                                </FlexBox>
+
+                            </l:content>
+                        </l:VerticalLayout>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

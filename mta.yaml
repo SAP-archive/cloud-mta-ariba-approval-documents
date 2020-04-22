@@ -1,0 +1,70 @@
+ID: com.sap.samples.ariba-approval-api
+_schema-version: 3.1.0
+version: 0.0.1
+
+parameters:
+  enable-parallel-deployments: true
+  global-xsappname: ariba-approval-documents-api-xsapp-${space}
+  global-frontend-domain: ${space}-ariba-approval-documents.${default-domain}
+  global-frontend-session-timeout: 25
+  global-frontend-incoming-connection-timeout: 600000
+
+modules:
+  - name: ariba-approval-documents-api
+    type: nodejs
+    path: backend
+    parameters:
+      buildpack: nodejs_buildpack
+      instances: 1
+      memory: 256M
+      disk-quota: 512M
+    provides:
+      - name: ariba-approval-documents-api-backend
+        properties:
+          url: ${default-url}
+    requires:
+      - name: ariba-approval-documents-api-logs
+      - name: ariba-approval-documents-api-uaa
+      - name: ariba-approval-documents-api-destination
+
+  - name: ariba-approval-documents-frontend
+    type: nodejs
+    path: frontend
+    parameters:
+      buildpack: nodejs_buildpack
+      instances: 1
+      memory: 256M
+      disk-quota: 512M
+    provides:
+      - name: ariba-approval-documents-api-frontend
+        properties:
+          url: ${default-url}
+          destinations:
+            - name: ariba-approval-documents-api
+              url: ~{ariba-approval-documents-api/url}/api
+              forwardAuthToken: true
+    properties:
+      SESSION_TIMEOUT: ${global-frontend-session-timeout}
+      INCOMING_CONNECTION_TIMEOUT: ${global-frontend-incoming-connection-timeout}
+    requires:
+      - name: ariba-approval-documents-api-uaa
+      - name: ariba-approval-documents-api-destination
+      - name: ariba-approval-documents-api
+
+resources:
+  - name: ariba-approval-documents-api-logs
+    type: com.sap.xs.application-logs
+
+  - name: ariba-approval-documents-api-uaa
+    type: com.sap.xs.uaa
+    parameters:
+      service-plan: application
+      config:
+        xsappname: ${global-xsappname}
+        tenant-mode: dedicated
+
+  - name: ariba-approval-documents-api-destination
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      service-plan: lite

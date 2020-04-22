@@ -1,0 +1,15 @@
+{
+  "name": "ariba-approval-documents-frontend",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap/approuter": "^6.8.1",
+    "@openui5/sap.m": "^1.74.0",
+    "@openui5/sap.ui.core": "^1.74.0",
+    "@openui5/sap.f": "^1.74.0",
+    "@openui5/sap.ui.layout": "^1.74.0",
+    "@openui5/themelib_sap_fiori_3": "^1.74.0"
+  },
+  "scripts": {
+    "start": "node ${NODE_ARGS} node_modules/@sap/approuter/approuter.js"
+  }
+}

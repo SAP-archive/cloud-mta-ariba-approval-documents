@@ -1,0 +1,15 @@
+# User-specific
+.idea
+
+# Build related
+.mta
+node_modules
+mta_archives
+Makefile
+Makefile.mta
+
+# Backend
+backend/package-lock.json
+
+# Frontend
+frontend/package-lock.json

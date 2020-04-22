@@ -1,0 +1,329 @@
+{
+  "totalCost": {
+    "amount": 62.2025,
+    "currency": "USD"
+  },
+  "realm": "p2pTeSg-5",
+  "attachments": [],
+  "lineItems": [
+    {
+      "supplier": {
+        "name": "JCN Technologies",
+        "commonSupplier": {
+          "name": "JCN Technologies"
+        },
+        "uniqueName": "11"
+      },
+      "shipTo": {
+        "name": "New York Sales",
+        "uniqueName": "US006"
+      },
+      "supplierLocation": {
+        "name": "Fritz Lohr : STUTTGART",
+        "uniqueName": "14"
+      },
+      "amount": {
+        "amount": 44.75,
+        "currency": "USD"
+      },
+      "description": {
+        "price": {
+          "amount": 44.75,
+          "currency": "USD"
+        },
+        "shortName": "Laptop Computer",
+        "supplierPartAuxiliaryID": "",
+        "unitOfMeasure": "each",
+        "supplierPartNumber": "3SearchImage",
+        "description": "Item with All values."
+      },
+      "commodityExportMapEntry": {
+        "accountType": {
+          "uniqueName": "Expense"
+        }
+      },
+      "requisitionId": "PR1320848722129",
+      "needBy": null,
+      "billingAddress": {
+        "name": "New York Sales",
+        "uniqueName": "US006"
+      },
+      "quantity": 1,
+      "splitAccountingType": "_Percentage",
+      "numberInCollection": 1,
+      "deliverTo": "Chad Noll",
+      "commonCommodityCode": "Writing chalk or accessories",
+      "accountings": [
+        {
+          "department": {
+            "name": "ｏpＥrＡtＩＯＮs",
+            "uniqueName": "4000"
+          },
+          "region": null,
+          "businessUnit": {
+            "name": "US002",
+            "uniqueName": "US002"
+          },
+          "amount": {
+            "amount": 44.75,
+            "currency": "USD"
+          },
+          "account": {
+            "description": "ｏffＩＣＥ SＵpplＩＥs",
+            "name": "ｏffＩＣＥ SＵpplＩＥs",
+            "uniqueName": "7720"
+          },
+          "costCenter": {
+            "name": "ｏpＥrＡtＩＯＮs",
+            "uniqueName": "4000"
+          },
+          "glBusinessUnit": null,
+          "statisticsCode": null,
+          "requisitionId": "PR1320848722129",
+          "location": null,
+          "percentage": 100,
+          "project": null,
+          "generalLedger": null,
+          "WBSElement": null,
+          "quantity": 1,
+          "customFields": [],
+          "lineItem": 1,
+          "numberInCollection": 1,
+          "product": null,
+          "asset": null,
+          "erpSplitValue": "",
+          "company": {
+            "name": "ｕS- GlＯbＡl DＥsＩgＮs",
+            "uniqueName": "02"
+          },
+          "subAccount": {
+            "name": "BＯstＯＮ",
+            "uniqueName": "5009"
+          },
+          "accountingCombinationID": null,
+          "internalOrder": null
+        }
+      ]
+    },
+    {
+      "supplier": {
+        "name": "JCN Technologies",
+        "commonSupplier": {
+          "name": "JCN Technologies"
+        },
+        "uniqueName": "11"
+      },
+      "shipTo": {
+        "name": "New York Sales",
+        "uniqueName": "US006"
+      },
+      "supplierLocation": {
+        "name": "Fritz Lohr : STUTTGART",
+        "uniqueName": "14"
+      },
+      "amount": {
+        "amount": 17.4525,
+        "currency": "USD"
+      },
+      "description": {
+        "price": {
+          "amount": 17.4525,
+          "currency": "USD"
+        },
+        "shortName": "Sales tax",
+        "supplierPartAuxiliaryID": "",
+        "unitOfMeasure": "each",
+        "supplierPartNumber": "3SearchImage",
+        "description": "Sales tax"
+      },
+      "commodityExportMapEntry": {
+        "accountType": {
+          "uniqueName": "Expense"
+        }
+      },
+      "requisitionId": "PR1320848722129",
+      "needBy": null,
+      "billingAddress": {
+        "name": "New York Sales",
+        "uniqueName": "US006"
+      },
+      "quantity": 1,
+      "splitAccountingType": "_Percentage",
+      "numberInCollection": 100001,
+      "deliverTo": "Chad Noll",
+      "commonCommodityCode": "Writing chalk or accessories",
+      "accountings": [
+        {
+          "department": {
+            "name": "ｏpＥrＡtＩＯＮs",
+            "uniqueName": "4000"
+          },
+          "region": null,
+          "businessUnit": {
+            "name": "US002",
+            "uniqueName": "US002"
+          },
+          "amount": {
+            "amount": 17.4525,
+            "currency": "USD"
+          },
+          "account": {
+            "description": "ｏffＩＣＥ SＵpplＩＥs",
+            "name": "ｏffＩＣＥ SＵpplＩＥs",
+            "uniqueName": "7720"
+          },
+          "costCenter": {
+            "name": "ｏpＥrＡtＩＯＮs",
+            "uniqueName": "4000"
+          },
+          "glBusinessUnit": null,
+          "statisticsCode": null,
+          "requisitionId": "PR1320848722129",
+          "location": null,
+          "percentage": 100,
+          "project": null,
+          "generalLedger": null,
+          "WBSElement": null,
+          "quantity": 1,
+          "customFields": [],
+          "lineItem": 100001,
+          "numberInCollection": 1,
+          "product": null,
+          "asset": null,
+          "erpSplitValue": "",
+          "company": {
+            "name": "ｕS- GlＯbＡl DＥsＩgＮs",
+            "uniqueName": "02"
+          },
+          "subAccount": {
+            "name": "BＯstＯＮ",
+            "uniqueName": "5009"
+          },
+          "accountingCombinationID": null,
+          "internalOrder": null
+        }
+      ]
+    }
+  ],
+  "version": 18,
+  "comments": [],
+  "messages": [],
+  "requester": {
+    "emailAddress": "nobody@ansmtp.ariba.com",
+    "contentType": "image/png",
+    "phone": "",
+    "name": "Chad Noll",
+    "uniqueName": "cnoll",
+    "passwordAdapter": "PasswordAdapter1",
+    "realm": "p2pTeSg-5"
+  },
+  "firstActiveApproverName": "Archie Rooney",
+  "timeUpdated": 1509128578000,
+  "title": "Zen-Req-2",
+  "activeApproverCount": 1,
+  "site": "Canonical Realm: p2pTeSg-5",
+  "records": [
+    {
+      "summary": "PR1320848722129 submitted for approval.",
+      "requisitionId": "PR1320848722129",
+      "date": 1509128576000,
+      "action": "Submitted",
+      "id": "AAAAAEeVMtnyF",
+      "type": "O",
+      "user": {
+        "emailAddress": "nobody@ansmtp.ariba.com",
+        "contentType": "image/png",
+        "phone": "",
+        "name": "Chad Noll",
+        "uniqueName": "cnoll",
+        "passwordAdapter": "PasswordAdapter1",
+        "realm": "p2pTeSg-5"
+      }
+    }
+  ],
+  "requesterName": "Chad Noll",
+  "activeApprovalRequestIds": "AAAAAD4VMtnyI",
+  "statusString": "Submitted",
+  "isPinned": false,
+  "lastModified": 1509128576000,
+  "uniqueName": "PR1320848722129",
+  "approvalRequests": [
+    {
+      "approver": "Approval Test Purchasing Manager",
+      "approvers": [
+        {
+          "group": {
+            "id": "AAAyAD1CK4Wh",
+            "uniqueName": "Approval Test Purchasing Manager"
+          },
+          "type": "group",
+          "id": "AAAyAD1CK4Wh",
+          "requisitionId": "PR1320848722129",
+          "approvalRequestId": "AAAAAD4VMtnyT"
+        }
+      ],
+      "approvalRequired": true,
+      "requisitionId": "PR1320848722129",
+      "id": "AAAAAD4VMtnyT",
+      "approvalState": "Pending",
+      "dependencyApprovalRequestsUID": [
+        "AAAAAD4VMtnyP"
+      ],
+      "reason": "",
+      "state": 1
+    },
+    {
+      "approver": "Purchasing Administrator",
+      "approvers": [
+        {
+          "group": {
+            "id": "AAAyAD1KPgG",
+            "uniqueName": "Purchasing Administrator"
+          },
+          "type": "group",
+          "id": "AAAyAD1KPgG",
+          "requisitionId": "PR1320848722129",
+          "approvalRequestId": "AAAAAD4VMtnyP"
+        }
+      ],
+      "approvalRequired": true,
+      "requisitionId": "PR1320848722129",
+      "id": "AAAAAD4VMtnyP",
+      "approvalState": "Pending",
+      "dependencyApprovalRequestsUID": [
+        "AAAAAD4VMtnyI"
+      ],
+      "reason": "",
+      "state": 1
+    },
+    {
+      "approver": "Archie Rooney",
+      "approvers": [
+        {
+          "type": "user",
+          "id": "AAAyAD2NwWc",
+          "requisitionId": "PR1320848722129",
+          "approvalRequestId": "AAAAAD4VMtnyI",
+          "user": {
+            "emailAddress": "nobody@ansmtp.ariba.com",
+            "contentType": "image/png",
+            "phone": "",
+            "name": "Archie Rooney",
+            "uniqueName": "arooney",
+            "passwordAdapter": "PasswordAdapter1",
+            "realm": "p2pTeSg-5"
+          }
+        }
+      ],
+      "approvalRequired": true,
+      "requisitionId": "PR1320848722129",
+      "id": "AAAAAD4VMtnyI",
+      "approvalState": "Ready for approval",
+      "dependencyApprovalRequestsUID": [],
+      "reason": "Supervisor must approve",
+      "state": 2
+    }
+  ],
+  "lineItemCount": 2,
+  "submitDate": 1509128576000
+}

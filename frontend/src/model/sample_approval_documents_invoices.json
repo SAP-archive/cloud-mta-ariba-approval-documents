@@ -1,0 +1,380 @@
+{
+  "INV1234-3976": {
+    "IsNonPO": true,
+    "ApprovedState": "Submitted",
+    "Category": 8,
+    "InitialUniqueName": "INV1234-3976",
+    "InvoiceSubmissionMethod": "PaperInvoice",
+    "SubmitDate": "2017-10-25T21:39:44Z",
+    "SupplierLocation": {
+      "UniqueName": "14"
+    },
+    "InvoicePurpose": "standard",
+    "CreateDate": "2017-10-25T21:32:35Z",
+    "Name": "INV1234-3976",
+    "RemitToAddress": {
+      "State": "TX",
+      "Phone": "",
+      "Country": {
+        "UniqueName": "US"
+      },
+      "PostalCode": "78701",
+      "City": "Austin",
+      "Fax": "",
+      "Lines": "3450 Industrial Park Road",
+      "Name": "JCN Technologies: Ariba Network"
+    },
+    "TimeCreated": "2017-10-25T21:32:45Z",
+    "TotalCost": {
+      "AmountInReportingCurrency": 90,
+      "ApproxAmountInBaseCurrency": 90,
+      "Amount": 89.5,
+      "ConversionDate": "2017-10-25T21:38:22Z",
+      "Currency": {
+        "UniqueName": "USD"
+      }
+    },
+    "LastModified": "2017-10-25T23:22:22Z",
+    "Requester": {
+      "UniqueName": "cnoll"
+    },
+    "AccountReceivableID": "",
+    "TotalTax": {
+      "AmountInReportingCurrency": 0,
+      "ApproxAmountInBaseCurrency": 0,
+      "Amount": 0,
+      "ConversionDate": "2017-10-25T21:39:44Z",
+      "Currency": {
+        "UniqueName": "USD"
+      }
+    },
+    "Supplier": {
+      "UniqueName": "11"
+    },
+    "TotalInvoicedLessTax": {
+      "AmountInReportingCurrency": 90,
+      "ApproxAmountInBaseCurrency": 90,
+      "Amount": 89.5,
+      "ConversionDate": "2017-10-25T21:39:44Z",
+      "Currency": {
+        "UniqueName": "USD"
+      }
+    },
+    "RemitToID": "",
+    "InvoiceNumber": "1234",
+    "InvoiceDate": "2017-10-25T21:32:37Z",
+    "LineItems": [
+      {
+        "Description.LineItem": {
+          "NumberInCollection": 1
+        },
+        "Description.CommonCommodityCode": {
+          "UniqueName": "44121710",
+          "Name": "Writing chalk or accessories"
+        },
+        "Description.SupplierPartAuxiliaryID": "",
+        "OriginalPrice": {
+          "AmountInReportingCurrency": 45,
+          "ApproxAmountInBaseCurrency": 45,
+          "Amount": 44.75,
+          "ConversionDate": "2017-10-26T06:59:59Z",
+          "Currency": {
+            "UniqueName": "USD"
+          }
+        },
+        "InvoiceLineNumber": 1,
+        "Category": 8,
+        "IsPriceModifiedByUser": false,
+        "Description.ExtendedDescription": "",
+        "SupplierLocation": {
+          "UniqueName": "14"
+        },
+        "IsAdHoc": false,
+        "NumberConfirmedRejected": 0,
+        "NumberConfirmedAccepted": 0,
+        "SplitAccountings": [
+          {
+            "PONumber": "",
+            "Account": {
+              "AccountDescription": "ｏffＩＣＥ SＵpplＩＥs",
+              "UniqueName": "7720",
+              "Name": "ｏffＩＣＥ SＵpplＩＥs"
+            },
+            "ERPSplitValue": "",
+            "Company": {
+              "UniqueName": "02",
+              "Name": "ｕS- GlＯbＡl DＥsＩgＮs",
+              "Description": "ｕS- GlＯbＡl DＥsＩgＮs"
+            },
+            "Percentage": 100,
+            "Amount": {
+              "AmountInReportingCurrency": 90,
+              "ApproxAmountInBaseCurrency": 90,
+              "Amount": 89.5,
+              "ConversionDate": "2017-10-26T06:59:59Z",
+              "Currency": {
+                "UniqueName": "USD"
+              }
+            },
+            "Quantity": 2,
+            "NumberInCollection": 1,
+            "Type": {
+              "UniqueName": "_Percentage"
+            },
+            "ProcurementUnit": {
+              "UniqueName": "US002"
+            },
+            "CostCenter": {
+              "UniqueName": "4000",
+              "Name": "ｏpＥrＡtＩＯＮs",
+              "Description": "ｏpＥrＡtＩＯＮs"
+            },
+            "POLineNumber": "",
+            "BusinessUnit": {
+              "Company": {
+                "Description": "ｕS- GlＯbＡl DＥsＩgＮs",
+                "ProcurementUnit": null,
+                "UniqueName": "02",
+                "Name": "ｕS- GlＯbＡl DＥsＩgＮs"
+              },
+              "Description": "ｕS002 MａSSａｃHｕSｅTTS ｏPｅRａTｉｏｎS",
+              "ProcurementUnit": {
+                "UniqueName": "US002"
+              },
+              "UniqueName": "US002",
+              "Name": "US002"
+            },
+            "SubAccount": {
+              "UniqueName": "5009",
+              "Name": "BＯstＯＮ",
+              "Description": "BＯstＯＮ"
+            }
+          }
+        ],
+        "NumberConfirmedAcceptedWithChanges": 0,
+        "BillingAddress": {
+          "State": "NY",
+          "Phone": "212-415-6000",
+          "Country": {
+            "UniqueName": "US"
+          },
+          "PostalCode": "10037",
+          "City": "New York",
+          "Fax": "212-415-6140",
+          "Lines": "4500 8th Avenue",
+          "Name": "New York Sales"
+        },
+        "NumberInCollection": 1,
+        "Description.Description": "Item with All values.",
+        "IsRecurring": false,
+        "NumberShipped": 0,
+        "NumberConfirmedSubstituted": 0,
+        "Description.ExtAttributesBitMask": 0,
+        "Description.ShortName": "Laptop Computer",
+        "Supplier": {
+          "UniqueName": "11"
+        },
+        "Carrier": "",
+        "Description.SupplierPartNumber": "3SearchImage",
+        "Description.Language": "",
+        "LineType": {
+          "UniqueName": "_CatalogItem"
+        },
+        "Description.Price": {
+          "AmountInReportingCurrency": 45,
+          "ApproxAmountInBaseCurrency": 45,
+          "Amount": 44.75,
+          "ConversionDate": "2017-10-26T06:59:59Z",
+          "Currency": {
+            "UniqueName": "USD"
+          }
+        },
+        "DeliverTo": "Chad Noll",
+        "OrderLineNumber": 0,
+        "ShipFrom": {
+          "UniqueName": "14"
+        },
+        "CarrierMethod": "",
+        "BoughtFromPreferredSupplier": false,
+        "Amount": {
+          "AmountInReportingCurrency": 90,
+          "ApproxAmountInBaseCurrency": 90,
+          "Amount": 89.5,
+          "ConversionDate": "2017-10-26T06:59:59Z",
+          "Currency": {
+            "UniqueName": "USD"
+          }
+        },
+        "Description.SupplierURL": "http://www.slowcomp.com/products/sup.htm",
+        "Quantity": 2,
+        "NumberConfirmedBackOrdered": 0,
+        "DiscountAmount": {
+          "AmountInReportingCurrency": 0,
+          "ApproxAmountInBaseCurrency": 0,
+          "Amount": 0,
+          "ConversionDate": "2017-10-25T21:38:09Z",
+          "Currency": {
+            "UniqueName": "USD"
+          }
+        },
+        "Description.LeadTime": 10,
+        "ERPLineItemNumber": "",
+        "GRBasedInvoice": false,
+        "Description.ItemNumber": "",
+        "Description.UnitOfMeasure": {
+          "UniqueName": "EA"
+        },
+        "ShipTo": {
+          "State": "NY",
+          "Phone": "212-415-6000",
+          "Country": {
+            "UniqueName": "US"
+          },
+          "PostalCode": "10037",
+          "City": "New York",
+          "Fax": "212-415-6140",
+          "Lines": "4500 8th Avenue",
+          "Name": "New York Sales"
+        },
+        "ReferenceDate": "2017-10-25T21:32:37Z",
+        "Description.QueryID": ""
+      }
+    ],
+    "StatusString": "Submitted",
+    "InvoiceOrigin": "supplier",
+    "TotalWithholdingTax": {
+      "AmountInReportingCurrency": 0,
+      "ApproxAmountInBaseCurrency": 0,
+      "Amount": 0,
+      "ConversionDate": "2017-10-25T21:39:44Z",
+      "Currency": {
+        "UniqueName": "USD"
+      }
+    },
+    "Signed": false,
+    "PreviousApprovalRequestsVersion": 26,
+    "ApprovalRequestsVersion": 28,
+    "UpperCaseInvoiceNumber": "1234",
+    "TimeUpdated": "2017-10-25T23:22:23Z",
+    "VersionNumber": 1,
+    "IsTaxInLine": false,
+    "ApprovalRequests": [
+      {
+        "AllowEscalationPeriodExtension": false,
+        "IsEscalatedToList": false,
+        "IsEscalationExtended": false,
+        "ExtendEscalationUserComments": "",
+        "Creator": {
+          "UniqueName": "cnoll"
+        },
+        "ApproverComment": "",
+        "Reason": "",
+        "LastModified": "2017-10-25T21:39:44Z",
+        "ReportingReason": "",
+        "ManuallyAdded": false,
+        "State": "NotYetActive",
+        "ReportingExtendEscalationReason": "",
+        "ExtendEscalationReasonCode": "",
+        "ApprovalRequired": true,
+        "Approver": {
+          "UniqueName": "bsanders"
+        },
+        "RuleName": ""
+      },
+      {
+        "AllowEscalationPeriodExtension": false,
+        "IsEscalatedToList": false,
+        "IsEscalationExtended": false,
+        "ExtendEscalationUserComments": "",
+        "Creator": {
+          "UniqueName": "cnoll"
+        },
+        "ApproverComment": "",
+        "Reason": "",
+        "LastModified": "2017-10-25T23:22:22Z",
+        "ReportingReason": "",
+        "ManuallyAdded": false,
+        "State": "ActiveButNoActionYet",
+        "ReportingExtendEscalationReason": "",
+        "ExtendEscalationReasonCode": "",
+        "ApprovalRequired": true,
+        "Approver": {
+          "UniqueName": "auto2"
+        },
+        "ActivationDate": "2017-10-25T23:22:22Z",
+        "RuleName": ""
+      },
+      {
+        "AllowEscalationPeriodExtension": false,
+        "IsEscalatedToList": false,
+        "IsEscalationExtended": false,
+        "ExtendEscalationUserComments": "",
+        "Creator": {
+          "UniqueName": "cnoll"
+        },
+        "ApproverComment": "",
+        "Reason": "",
+        "LastModified": "2017-10-25T23:22:21Z",
+        "ReportingReason": "",
+        "ManuallyAdded": false,
+        "State": "Approved",
+        "ReportingExtendEscalationReason": "",
+        "ExtendEscalationReasonCode": "",
+        "ApprovedBy": {
+          "UniqueName": "arooney"
+        },
+        "ApprovalRequired": true,
+        "Approver": {
+          "UniqueName": "arooney"
+        },
+        "ActivationDate": "2017-10-25T21:39:44Z",
+        "RuleName": ""
+      },
+      {
+        "AllowEscalationPeriodExtension": false,
+        "IsEscalatedToList": false,
+        "IsEscalationExtended": false,
+        "ExtendEscalationUserComments": "",
+        "Creator": {
+          "UniqueName": "cnoll"
+        },
+        "ApproverComment": "",
+        "Reason": "",
+        "LastModified": "2017-10-25T23:22:21Z",
+        "ReportingReason": "",
+        "ManuallyAdded": false,
+        "State": "ActiveButNoActionYet",
+        "ReportingExtendEscalationReason": "",
+        "ExtendEscalationReasonCode": "",
+        "ApprovalRequired": true,
+        "Approver": {
+          "UniqueName": "mallen"
+        },
+        "ActivationDate": "2017-10-25T21:39:46Z",
+        "RuleName": ""
+      }
+    ],
+    "Active": true,
+    "Type": "ariba.invoicing.core.Invoice",
+    "InvoiceOriginType": 0,
+    "InvoiceStatusString": "Submitted",
+    "InvoiceSourceDocument": "SalesOrder",
+    "SupplierName": "",
+    "TaxExchangeRate": 0,
+    "HeaderLevel": false,
+    "InvoiceState": "Loaded",
+    "UniqueName": "INV1234-3976",
+    "TotalInvoiced": {
+      "AmountInReportingCurrency": 90,
+      "ApproxAmountInBaseCurrency": 90,
+      "Amount": 89.5,
+      "ConversionDate": "2017-10-25T21:39:44Z",
+      "Currency": {
+        "UniqueName": "USD"
+      }
+    },
+    "Preparer": {
+      "UniqueName": "cnoll"
+    }
+  }
+}

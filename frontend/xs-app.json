@@ -1,0 +1,28 @@
+{
+  "welcomeFile": "ariba-approval-documents-frontend/index.html",
+  "sessionTimeout": 25,
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/resources/(.*)$",
+      "target": "$1",
+      "localDir": "src",
+      "authenticationType": "none"
+    },
+    {
+      "source": "^/ariba-approval-documents-frontend/(.*)$",
+      "target": "$1",
+      "localDir": "src",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/api/(.*)$",
+      "destination": "ariba-approval-documents-api",
+      "target": "$1",
+      "authenticationType": "xsuaa"
+    }
+  ]
+}
