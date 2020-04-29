@@ -1,4 +1,9 @@
 # Manage Approval Documents From SAP Ariba
+This repository contains the sample code for the [Manage Approval Documents from SAP Ariba tutorial](http://tiny.cc/ariba-ext-docs-chatbot).
+
+*This code is only one part of the tutorial, so please follow the tutorial before attempting to use this code.* 
+
+The setup guide of the tutorial can found [here](./resources/documentation/Setup-Guide.md).
 
 ## Description
 This scenario shows how users can fetch their approval documents from an Ariba procurement sandbox system. 
