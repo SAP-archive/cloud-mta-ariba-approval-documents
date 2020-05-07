@@ -6,7 +6,7 @@ This repository contains the sample code for the [Manage Approval Documents from
 The setup guide of the tutorial can found [here](./resources/documentation/Setup-Guide.md).
 
 ## Description
-This scenario shows how users can fetch their approval documents from an Ariba procurement sandbox system. 
+This scenario shows how users can fetch their approval documents from an Ariba procurement system. 
 There are two document types supported which are invoice documents and purchase requisition documents. 
 Users can make use of an embedded chatbot that is guiding the user to their correct approval documents.
 

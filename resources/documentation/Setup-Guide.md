@@ -7,10 +7,10 @@ deployment and configuration of the application so that it can be used in a demo
 
 ## Business Scenario
 Using SAP Conversational AI you can build intelligent chatbots. 
-The chatbot can communicate with an SAP Ariba procurement sandbox system over SAP Cloud Platform to retrieve data and convert it into
+The chatbot can communicate with an SAP Ariba procurement system over SAP Cloud Platform to retrieve data and convert it into
 chatbot expressions. 
 
-This scenario showcases how a chatbot communicates with an SAP Ariba procurement sandbox solution over SAP Cloud Platform using 
+This scenario showcases how a chatbot communicates with an SAP Ariba procurement solution over SAP Cloud Platform using 
 a REST service. Based on the user input, the chatbot requests a document for approval. 
 Documents can be either purchase requisition documents or invoice documents. 
 
@@ -39,7 +39,7 @@ have been met:
 
 ## Step 1 - API Configuration in SAP API Business Hub
 By following these steps, you will generate an authorization token that is required for the communication
-between the SAP Cloud Platform application and the SAP Ariba procurement sandbox system.
+between the SAP Cloud Platform application and the SAP Ariba procurement system.
 
 ### Procedure
 1. Log on to the [SAP API Business Hub](https://api.sap.com/)
@@ -126,7 +126,7 @@ You have successfully deployed the application into your SAP Cloud Platform acco
 
 
 ## Step 6 - Application Configuration in SAP Cloud Platform
-In this step, you will configure your deployed application to communicate with your SAP Ariba procurement sandbox system.
+In this step, you will configure your deployed application to communicate with your SAP Ariba procurement system.
 For more information, refer to [SAP Cloud Platform Create HTTP Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/1e110da0ddd8453aaf5aed2485d84f25.html).
 
 ### Procedure
@@ -154,7 +154,7 @@ For more information, refer to [SAP Cloud Platform Create HTTP Destinations](htt
    
 1. Save destination
 
-#### Procedure - Create SAP Ariba procurement sandbox system Destination
+#### Procedure - Create SAP Ariba procurement system Destination
 
 1. Create another destination with the following details
     * Name: ariba-approval-documents-sandbox
@@ -179,7 +179,7 @@ For more information, refer to [SAP Cloud Platform Create HTTP Destinations](htt
 ## Result
 You have entered all the integration details, this means:
 * Your frontend application is connected to your backend application
-* Your backend application is connected to your SAP Ariba procurement sandbox system
+* Your backend application is connected to your SAP Ariba procurement system
 
 
 ## Step 7 - Communication Configuration in SAP Conversational AI
