@@ -1,4 +1,11 @@
+
+
 Copyright (c) 2009-2020 SAP SE or an SAP affiliate company.
+
+
+------------------------------------------------------------------------------------------
+
+
 
 APIs
 This project may include APIs to SAP or third-party products or services.
@@ -13,3 +20,52 @@ products to communicate with or call on SAP or third party products
 or services (for example, SAP Enterprise Services, BAPIs, Idocs, RFCs
 and ABAP calls or other user exits) and may be made available through
 SAP or third party products, SDKs, documentation or other media.
+
+
+------------------------------------------------------------------------------------------
+
+
+Third-Party Notices
+
+"Manage Approval Documents From SAP Ariba" uses third-party software or other resources that may be distributed under
+licenses different than "Manage Approval Documents From SAP Ariba" software. In the event that we overlooked to list required notice,
+please bring this to our attention by contacting us via this email: opensource@sap.com
+
+
+Components:
+
+Nodejs (https://nodejs.org/)
+Licensed under MIT - https://github.com/nodejs/node/blob/master/LICENSE
+
+Express (https://expressjs.com/)
+Licensed under MIT - https://github.com/expressjs/express/blob/master/LICENSE
+
+Axios (https://github.com/axios/axios)
+Licensed under MIT - https://github.com/axios/axios/blob/master/LICENSE
+
+Body-Parser (https://github.com/expressjs/body-parser)
+Licensed under MIT - https://github.com/expressjs/body-parser/blob/master/LICENSE
+
+Passport (http://www.passportjs.org/)
+Licensed under MIT - https://github.com/jaredhanson/passport/blob/master/LICENSE
+
+Serve-Static (https://github.com/expressjs/serve-static)
+Licensed under MIT - https://github.com/expressjs/serve-static/blob/master/LICENSE
+
+
+------------------------------------------------------------------------------------------
+
+
+The MIT License (MIT)
+
+Copyright (c)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
