@@ -1,3 +1,6 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/cloud-mta-ariba-approval-documents)](https://api.reuse.software/info/github.com/SAP-samples/cloud-mta-ariba-approval-documents)
+
+
 # Manage Approval Documents From SAP Ariba
 This repository contains the sample code for the [Manage Approval Documents from SAP Ariba tutorial](http://tiny.cc/ariba-ext-docs-chatbot).
 
@@ -37,5 +40,5 @@ In case you find a bug, or you need additional support, please open an issue her
 
 
 ## License
-Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under Apache License Agreement, version 2.0, except as noted otherwise in the [LICENSE](LICENSE) file.
+Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under Apache License Agreement, version 2.0, except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
 
