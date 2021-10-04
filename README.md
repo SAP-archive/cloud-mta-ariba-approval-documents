@@ -14,7 +14,7 @@ This scenario shows how users can fetch their approval documents from an Ariba p
 The sample application is a multi-target application consisting of a single-page SAPUI5 frontend application that has an embedded chatbot and a node.js backend application.
 
 ## Requirements
-- SAP Cloud Platform Cloud Foundry trial or enterprise account, [sign up for a Cloud Foundry environment trial account on SAP Cloud Platform](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/76e79d62fa0149d5aa7b0698c9a33687.html)
+- SAP Business Technology Platform free trial or enterprise account, [get a free account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 - Access to [SAP API Business Hub](https://api.sap.com/)
 - [SAP Conversational AI](https://cai.tools.sap/login) account
 
@@ -24,7 +24,7 @@ Downloading and running the application can be achieved by following the steps d
 
 
 ## Limitations
-Application designed to run on SAP Cloud Platform Cloud Foundry. 
+Application designed to run on SAP BTP. 
 
 
 ## Known Issues
