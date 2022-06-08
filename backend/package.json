@@ -32,7 +32,7 @@
     "@sap-cloud-sdk/util": "^1.18.1",
     "@sap/xsenv": "^2.2.0",
     "@sap/xssec": "^2.2.4",
-    "axios": "0.19.2",
+    "axios": "0.27.2",
     "body-parser": "1.18.3",
     "express": "^4.17.1",
     "passport": "^0.4.1",
